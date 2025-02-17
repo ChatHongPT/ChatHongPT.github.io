@@ -3,16 +3,26 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# - type: twitter
+#   icon: "fab fa-twitter"
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+- type: blog
+  icon: "fa-solid fa-pen"
+  noblank: false
+  url: "https://velog.io/@chathongpt/posts"
+
+- type: instagram
+  icon: "fa-brands fa-instagram"
+  noblank: false
+  url: "https://www.instagram.com/Hongttochi"
+
+# - type: email
+#   icon: "fas fa-envelope"
+#   noblank: false # open link in current tab
 
 - type: rss
   icon: "fas fa-rss"
-  noblank: true
+  noblank: false
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
@@ -21,20 +31,8 @@
 #
 # - type: linkedin
 #   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Linkedin homepage
+#   url:  'https://www.linkedin.com/in/name/'                  # Fill with your Linkedin homepage
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
-#
-# - type: bluesky
-#   icon: 'fa-brands fa-bluesky'
-#   url: ''                   # Fill with your Bluesky profile link
-#
-# - type: reddit
-#   icon: 'fa-brands fa-reddit'
-#   url: ''                   # Fill with your Reddit profile link
-#
-# - type: threads
-#   icon: 'fa-brands fa-threads'
-#   url: ''                   # Fill with your Threads profile link
